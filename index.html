@@ -8,9 +8,6 @@
 <script type="text/javascript">
     function iframeLoaded() {
         var iFrameID = document.getElementById('form');
-        if(iFrameID) {
-              iFrameID.height = "";
-              iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight;
-        }   
+        if(iFrameID) iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight;
     }
 </script>   
