@@ -5,3 +5,13 @@
 <body>
     <iframe src="https://formfacade.com/headless/104693427534966964357/home/form/1FAIpQLSf_MywPKfoJLNX__SZ8Fcc0zHTD6n-wLdbH_hKwkndoAl7N4w" scrolling="no" frameBorder="0" width="100%"></iframe>
 </body>
+<script type="text/javascript">
+    function iframeLoaded() {
+        var iFrameID = document.getElementById('idIframe');
+        if(iFrameID) {
+              // here you can make the height, I delete it first, then I make it again
+              iFrameID.height = "";
+              iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+        }   
+    }
+  </script>   
